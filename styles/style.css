@@ -17,6 +17,7 @@ li{
     font-size: 1.25rem;
     font-weight: 600;
     color: #FFF;
+    border: none;
 }
 /* header styles */
 
@@ -67,6 +68,39 @@ nav li a{
     margin-top: 50px;
     width: 100%;
 }
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-inline: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick{
+    font-siz: 2.8rem;
+    color:#727272;    
+    font-weight: 500;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
 
 
 /* responsive styles  */

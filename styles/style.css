@@ -23,6 +23,11 @@ li{
     color: #727272;
     
 }
+.section-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* header styles */
 
 header{
@@ -35,11 +40,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    color: #131313;
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 nav > ul{
     display: flex;
 }
@@ -71,7 +72,7 @@ nav li a{
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 70px auto;
+    margin:70px  auto;
 }
 /* teams styles */
 .teams-container{
@@ -100,8 +101,28 @@ main{
     font-weight: 500;
 }
 
-
-
+/* facts styles */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-block: 10px;
+}
+.card-title{
+    color: #727272 ;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-block: 5px;
+}
 /* responsive styles  */
 /* mobile devices */
 @media screen and (max-width:576px){

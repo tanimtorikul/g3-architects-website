@@ -61,6 +61,7 @@ nav li a{
 .banner-desc{
     color: #727272;
     line-height: 26px; 
+    margin-bottom: 53px;
 }
 .banner img{
     margin-top: 50px;
@@ -68,3 +69,24 @@ nav li a{
 }
 
 
+/* responsive styles  */
+/* mobile devices */
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px){
+    nav{
+        flex-direction: column;
+        
+    }
+    header{
+        padding: 40px;
+    }
+}
